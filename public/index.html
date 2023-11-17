@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Parking car</title>
+	</head>
+	<body>
+		<main>
+			<div class="formtable">
+    <div class="formtable__logo">
+     <img src="../jpg/parcing.jpg" alt="Logo" class="logo">
+   </div>
+				<div class="form-row">
+					<section class="formtable__form">
+						<div class="form-group col-md-5">
+							<input
+								class="form-control"
+								type="text"
+								name="name"
+								id="name"
+								placeholder="car name"
+								autocomplete="off"
+							/>
+						</div>
+						<div class="form-group col-md-5">
+							<input
+								class="form-control"
+								type="text"
+								name="plate"
+								id="plate"
+								placeholder="plate ID"
+								autocomplete="off"
+							/>
+						</div>
+						<div class="form-group col-md-2">
+							<button class="btn btn-secondary" id="register">start</button>
+						</div>
+					</section>
+				</div>
+
+				<table class="table table-striped col-md-6">
+					<th scope="col">Name</th>
+					<th scope="col">plate ID</th>
+					<th scope="col">entrance</th>
+					<th scope="col">actions</th>
+
+					<tbody id="parking"></tbody>
+				</table>
+			</div>
+		</main>
+
+		<script src="./script.js"></script>
+		<script
+			src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+			integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+			integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+			integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
